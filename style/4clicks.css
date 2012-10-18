@@ -1,0 +1,76 @@
+body {
+        margin: 10px;
+        padding: 0px;
+		background: URL("../media/background.png");
+    }
+	  
+    canvas {
+		/*-webkit-box-shadow:7px 7px 20px rgba(50, 50, 50, 0.8);
+		-moz-box-shadow:7px 7px 20px rgba(50, 50, 50, 0.8);
+		-o-box-shadow:7px 7px 20px rgba(50, 50, 50, 0.8);
+		-ms-box-shadow:7px 7px 20px rgba(50, 50, 50, 0.8);
+		box-shadow:7px 7px 20px rgba(50, 50, 50, 0.8);*/
+		border-radius:20px;
+		-webkit-border-radius:20px;
+		-o-border-radius:20px;
+		-moz-border-radius:20px;
+		-ms-border-radius:20px;
+      }
+	  
+	  #fourclicks{
+		background-color:#4A4A4A;
+		border-radius:20px;
+		-webkit-border-radius:20px;
+		-o-border-radius:20px;
+		-moz-border-radius:20px;
+		-ms-border-radius:20px;
+	  }
+	  
+	  #titulo{
+		font-family: “Myriad Pro”, Arial, Helvetica, Tahoma, sans-serif;
+		text-shadow: 1px 1px 1px #000;
+		color:#FFF;
+		font-weight: bold;
+		font-size: 28px;
+		font-variant: small-caps;
+	  }
+	  
+	  #separador{
+		padding-left: 30px;
+		padding-right: 30px;
+	  }
+	  
+	  #instrucciones{
+		font-family: “Myriad Pro”, Arial, Helvetica, Tahoma, sans-serif;
+		text-shadow: 2px 2px 2px #FFF;
+		color:#999;
+		font-size: 24px;
+		font-variant: small-caps;
+	  }
+	  
+	  #validador{
+		font-family: “Myriad Pro”, Arial, Helvetica, Tahoma, sans-serif;
+		text-shadow: 1px 1px 1px #000;
+		color:#FFF;
+		font-weight: bold;
+		font-size: 28px;
+		font-variant: small-caps;
+		cursor:pointer;
+	  }
+	  
+	  #boton{
+		font-family: “Myriad Pro”, Arial, Helvetica, Tahoma, sans-serif;
+		cursor:pointer;
+		width:100px;
+		height:50px;
+		border: 1px solid;
+		border-radius:10px;
+		-webkit-border-radius:10px;
+		-o-border-radius:10px;
+		-moz-border-radius:10px;
+		-ms-border-radius:10px;
+	  }
+	  
+	  #boton:hover{
+		font-weight: bold;
+	  }
